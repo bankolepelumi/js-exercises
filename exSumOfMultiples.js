@@ -4,7 +4,7 @@ function sum(limit) {
     let sumOf = 0;
     for (let i = 0; i <= limit; i++) {
         if ((i % 3 === 0) || (i % 5 === 0))
-            sumOf = sumOf + i;
+            sumOf += i;
     }
     console.log(sumOf);
 }
