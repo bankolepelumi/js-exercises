@@ -2,8 +2,12 @@
 
 function showPrimes(limit) {
     for (let number = 2; number <=limit; number++) { 
+        isNumPrime(number);
+    }
+}
 
-        let isPrime = true;
+function isNumPrime(number) {
+    let isPrime = true;
         for (let factor = 2; factor < number; factor++) {
             if (number % factor === 0) {
                 isPrime = false;
@@ -12,7 +16,6 @@ function showPrimes(limit) {
         }
         if (isPrime === true)
             console.log(number);
-    }
 }
 
 showPrimes(100);
