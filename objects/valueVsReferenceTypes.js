@@ -16,7 +16,7 @@ increase(number.value);
 console.log(number);
 
 // Value Types
-// Sumber
+// Number
 // String
 // Boolean
 // Symbol
