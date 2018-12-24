@@ -25,7 +25,7 @@ console.log(another.draw());
 const another1 = Object.assign({}, circle);
 console.log(another1);
 
-// Cloning method 3... Using the object.assign method and adding to it...the object.assign method ans copy from more than one object and combine the result into one destination object
+// Cloning method 3... Using the object.assign method and adding to it...the object.assign method to copy from more than one source object and combine the result into one destination object
 const another2 = Object.assign({
     color: 'yellow'
 }, circle, circle4);
